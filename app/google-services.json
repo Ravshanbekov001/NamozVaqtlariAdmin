@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "540930469085",
+    "project_id": "namoz-vaqtlari-45b4a",
+    "storage_bucket": "namoz-vaqtlari-45b4a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:540930469085:android:748da284586fa260397f34",
+        "android_client_info": {
+          "package_name": "uz.futuresoft.namozvaqtlariadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "540930469085-2eoncbaruma7qis4grag44esudletgvl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLUbbsEIMWT9TUvnmVOENLV7Bq8SwePi0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "540930469085-2eoncbaruma7qis4grag44esudletgvl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

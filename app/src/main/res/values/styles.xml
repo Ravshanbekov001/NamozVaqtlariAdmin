@@ -1,0 +1,38 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.NamozVaqtlariAdmin" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/green</item>
+        <item name="colorPrimaryVariant">@color/green</item>
+        <item name="colorOnPrimary">@color/white</item>
+    </style>
+
+    <style name="FullScreenActivity" parent="Theme.NamozVaqtlariAdmin">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/_16dp</item>
+        <item name="android:layout_marginTop">@dimen/_16dp</item>
+        <item name="android:layout_marginEnd">@dimen/_16dp</item>
+        <item name="android:textColorHint">@color/white</item>
+        <item name="startIconTint">@color/white</item>
+        <item name="boxStrokeColor">@color/green</item>
+        <item name="hintTextColor">@color/green</item>
+    </style>
+
+    <style name="TextInputEditTextStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textColor">@color/green</item>
+        <item name="android:inputType">time</item>
+        <item name="android:imeOptions">actionNext</item>
+    </style>
+
+</resources>

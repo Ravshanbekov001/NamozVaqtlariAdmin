@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/second"
+        android:src="@drawable/blur_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_bomdod"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/bomdod"
+            app:startIconDrawable="@drawable/bomdod">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_bomdod"
+                style="@style/TextInputEditTextStyle"
+                android:imeOptions="actionNext" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_quyosh"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/quyosh"
+            app:startIconDrawable="@drawable/quyosh">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_quyosh"
+                style="@style/TextInputEditTextStyle" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_peshin"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/peshin"
+            app:startIconDrawable="@drawable/peshin">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_peshin"
+                style="@style/TextInputEditTextStyle" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_asr"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/asr"
+            app:startIconDrawable="@drawable/asr">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_asr"
+                style="@style/TextInputEditTextStyle" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_shom"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/shom"
+            app:startIconDrawable="@drawable/shom">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_shom"
+                style="@style/TextInputEditTextStyle" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TIL_xufton"
+            style="@style/TextInputLayoutStyle"
+            android:hint="@string/xufton"
+            app:startIconDrawable="@drawable/xufton">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/TIE_xufton"
+                style="@style/TextInputEditTextStyle"
+                android:imeOptions="actionDone" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_16dp"
+            android:text="@string/saqlash"
+            android:textAllCaps="false"
+            app:cornerRadius="@dimen/_8dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

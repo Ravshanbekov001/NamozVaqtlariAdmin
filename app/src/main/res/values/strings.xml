@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Namoz vaqtlari Admin</string>
+    <string name="bomdod">Bomdod</string>
+    <string name="quyosh">Quyosh</string>
+    <string name="peshin">Peshin</string>
+    <string name="asr">Asr</string>
+    <string name="shom">Shom</string>
+    <string name="xufton">Xufton</string>
+    <string name="saqlash">Saqlash</string>
+    <string name="saqlandi">Saqlandi</string>
+    <string name="berilgan_maydonlarni_toldiring">Berilgan maydonlarni to`ldiring!</string>
+</resources>
